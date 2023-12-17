@@ -74,7 +74,7 @@ Feito com ❤️ por **Allan** para a **Ecomp**
     $ docker compose stop;
     ```
 
--   **INICIAR todos os containers do back-end que estão rodando**
+-   **INICIAR todos os containers do back-end**
 
     Dentro da pasta do repositório:
 
