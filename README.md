@@ -41,10 +41,10 @@ Feito com ❤️ por **Allan** e **Gustavo** para a **Ecomp**
     DB_PASSWORD=SuaSENHA
     ```
 
-6.  **Dar permissão de execução pro "build.sh" e "configure.sh"**
+6.  **Dar permissão de execução de acesso aos arquivos do repo
 
     ```console
-    $ chmod 777 build.sh configure.sh;
+    $ chmod -R 777 .;
     ```
 
 7.  **Executar o "build.sh" e logo depois o "configure.sh"**
