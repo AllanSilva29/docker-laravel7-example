@@ -1,6 +1,6 @@
 # Setup BACK-END com docker
 
-Feito com ❤️ por **Allan** para a **Ecomp**
+Feito com ❤️ por **Allan** e **Gustavo** para a **Ecomp**
 
 ---
 
