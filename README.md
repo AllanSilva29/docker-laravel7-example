@@ -34,22 +34,21 @@
     ```
 
 4.  **Copiar o .env.example para um .env e colocar as credenciaias
-    (_trocar obrigatoriamente esses três campos_)**
+    (_trocar obrigatoriamente esses três campos no .env_)**
+    
+    ```
+    DB_DATABASE=NOME-DA-DATABASE
+    DB_USERNAME=SEU-USERNAME
+    DB_PASSWORD=SUA-SENHA
+    ```
 
-        **.env**:
-        ``` json
-        [linha 12] DB_DATABASE=NOME-DA-DATABASE
-        [linha 13] DB_USERNAME=SEU-USERNAME
-        [linha 14] DB_PASSWORD=SUA-SENHA
-        ```
-
-5.  **Dar permissão de execução pro "build.sh" e "configure.sh"**
+6.  **Dar permissão de execução pro "build.sh" e "configure.sh"**
 
     ```bash
     $ chmod 777 build.sh configure.sh
     ```
 
-6.  **Executar o "build.sh" e logo depois o "configure.sh"**
+7.  **Executar o "build.sh" e logo depois o "configure.sh"**
 
     ```bash
     $ ./build.sh;
