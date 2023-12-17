@@ -21,7 +21,7 @@ Feito com ❤️ por **Allan** e **Gustavo** para a **Ecomp**
     Dentro da pasta do repositório dar o seguinte comando pelo TERMINAL, lembrando de mudar o "_nome-do-projeto_" para a localização do seu projeto e o nome dele
 
     ```console
-    $ cp -R nome-do-projeto/back-end/!(.env.example|public/storage) .;
+    $ cp -R nome-do-projeto/back-end/!(.env.example) .;
     ```
 
 3.  **Remover a pasta "storage" de "public/storage", que nem ta escrito no build.sh, senão vai dar erro**
