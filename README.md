@@ -21,36 +21,36 @@
 
     Dentro da pasta do repositório dar o seguinte comando pelo TERMINAL, lembrando de mudar o "_nome-do-projeto_" para a localização do seu projeto e o nome dele
 
-    ```bash
-    $ cp -R nome-do-projeto/back-end/!(.env.example|public/storage) .
+    ```console
+    $ cp -R nome-do-projeto/back-end/!(.env.example|public/storage) .;
     ```
 
 3.  **Remover a pasta "storage" de "public/storage", que nem ta escrito no build.sh, senão vai dar erro**
 
     Dentro da pasta do repositório dar o seguinte comando pelo TERMINAL
 
-    ```bash
+    ```console
     $ sudo rm -rf public/storage;
     ```
 
 4.  **Copiar o .env.example para um .env e colocar as credenciaias
     (_trocar obrigatoriamente esses três campos no .env_)**
     
-    ```
-    DB_DATABASE=NOME-DA-DATABASE
-    DB_USERNAME=SEU-USERNAME
-    DB_PASSWORD=SUA-SENHA
+    ```typescript
+    DB_DATABASE=NomeDaDATABASE
+    DB_USERNAME=SeuUSERNAME
+    DB_PASSWORD=SuaSENHA
     ```
 
 6.  **Dar permissão de execução pro "build.sh" e "configure.sh"**
 
-    ```bash
-    $ chmod 777 build.sh configure.sh
+    ```console
+    $ chmod 777 build.sh configure.sh;
     ```
 
 7.  **Executar o "build.sh" e logo depois o "configure.sh"**
 
-    ```bash
+    ```console
     $ ./build.sh;
     $ ./configure.sh;
     ```
@@ -63,24 +63,24 @@
 
     Dentro da pasta do repositório:
 
-    ```bash
-    $ docker compose ps
+    ```console
+    $ docker compose ps;
     ```
 
 -   **PARAR todos os containers do back-end que estão rodando**
 
     Dentro da pasta do repositório:
 
-    ```bash
-    $ docker compose stop
+    ```console
+    $ docker compose stop;
     ```
 
 -   **INICIAR todos os containers do back-end que estão rodando**
 
     Dentro da pasta do repositório:
 
-    ```bash
-    $ docker compose start
+    ```console
+    $ docker compose start;
     ```
 
 ---
