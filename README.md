@@ -41,7 +41,7 @@ Feito com ❤️ por **Allan** e **Gustavo** para a **Ecomp**
     DB_PASSWORD=SuaSENHA
     ```
 
-6.  **Dar permissão de execução de acesso aos arquivos do repo
+6.  **Dar permissão de execução de acesso aos arquivos do repo**
 
     ```console
     $ chmod -R 777 .;
